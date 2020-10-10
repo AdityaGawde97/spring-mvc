@@ -1,0 +1,23 @@
+package com.adicode.lc.controllers;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@Controller
+public class TestController {
+
+	@ResponseBody
+	@RequestMapping("/test")
+	private String testMethod() {
+		
+		return "Testing is done and its working...";
+	}
+	
+	@RequestMapping("/testpage")
+	private String showJspPage() {
+		
+		return "MyJspPage";
+	}
+	
+}

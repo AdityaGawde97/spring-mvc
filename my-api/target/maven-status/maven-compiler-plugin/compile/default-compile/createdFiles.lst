@@ -1,0 +1,4 @@
+com\restful\it\SpringApplicationInitializer.class
+com\restful\it\bean\Greeting.class
+com\restful\it\controllers\HelloController.class
+com\restful\it\SpringConfig.class

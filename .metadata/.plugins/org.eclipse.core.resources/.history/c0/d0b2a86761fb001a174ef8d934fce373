@@ -1,0 +1,19 @@
+package com.restful.it.controllers;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloController {
+
+	@ResponseBody
+	@RequestMapping(value = "/hello", method = RequestMethod.GET)
+	public String displayHello(@RequestParam(value="name", defaultValue = "aditya") String name) {
+		
+		return String.format("Hello ", name);
+	}
+	
+}

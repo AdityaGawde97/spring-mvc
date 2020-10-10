@@ -1,0 +1,5 @@
+package com.adicode.lc.config;
+
+public class LoveCalculatorApplicationInitializer {
+
+}

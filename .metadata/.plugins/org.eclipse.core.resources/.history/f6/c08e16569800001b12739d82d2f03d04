@@ -1,0 +1,5 @@
+package it.aadu.my.controllers;
+
+public class HelloController {
+
+}

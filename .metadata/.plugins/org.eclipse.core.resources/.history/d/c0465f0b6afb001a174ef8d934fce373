@@ -1,0 +1,5 @@
+package com.restful.it.bean;
+
+public class Greeting {
+
+}

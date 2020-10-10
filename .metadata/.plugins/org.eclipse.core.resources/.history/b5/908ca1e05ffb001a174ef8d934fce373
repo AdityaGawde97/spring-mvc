@@ -1,0 +1,5 @@
+package com.restful.it.controllers;
+
+public class HelloController {
+
+}
